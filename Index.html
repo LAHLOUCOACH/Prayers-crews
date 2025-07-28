@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>طقم صلاتي</title>
+  <style>
+    body {
+      background: url("background.jpg") no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 2em;
+      background-color: rgba(0,0,0,0.6);
+      background-blend-mode: darken;
+    }
+
+    h1 { font-size: 2.5em; margin-top: 1em; }
+    p { font-size: 1.2em; margin-bottom: 1em; }
+    img {
+      max-width: 90%;
+      border-radius: 15px;
+      margin-top: 1em;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .section { margin-top: 3em; }
+
+    form {
+      max-width: 400px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1f8a4d;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌙 طقم صلاتي الفاخر</h1>
+  <p>سجادة | سبحة | غطاء رأس – هدية روحية لمن تحب</p>
+  <img src="salati.jpg" alt="طقم الصلاة">
+
+  <div class="section">
+    <h2>من أنا؟</h2>
+    <p>أنا أركم لحلو، مؤمن بسيط أطمح لنشر السكينة في الصلاة من خلال طقم راقٍ يليق بلحظاتك مع الله.</p>
+  </div>
+
+  <div class="section">
+    <h2>اطلب الآن</h2>
+    <p>املأ النموذج وسيصلنا طلبك مباشرة على بريدي.</p>
+
+    <form action="https://formsubmit.co/Arkamlahlou76@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="الاسم الكامل" required>
+      <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+      <textarea name="message" placeholder="عنوانك أو ملاحظاتك" rows="4" required></textarea>
+      <button type="submit">إرسال الطلب</button>
+    </form>
+  </div>
+
+</body>
+  </html>
